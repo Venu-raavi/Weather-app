@@ -1,0 +1,11 @@
+@media (max-width: 600px) {
+    .search-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #searchInput {
+        width: 100%;
+        max-width: 300px;
+    }
+}

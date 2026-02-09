@@ -18,18 +18,19 @@ A responsive Weather Dashboard web application that displays real-time weather d
 
 
 
-Step 1: Get API Key
-
+Step 1: GET API KEY
 
 Go to: https://openweathermap.org/api
 Sign up / log in
 Generate a free API key
 
 
-Step 2: Add API Key
+Step 2: ADD API KEY
 
-replace the API key in .env as well and
-Open js/config.js and replace with your key:
+"replace the API key in .env"
+WEATHER_API_KEY=API KEY
+
+"Open js/config.js and replace with your key"
 
 const CONFIG = {
     API_KEY: "YOUR_OPENWEATHERMAP_API_KEY",
